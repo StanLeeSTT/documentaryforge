@@ -1,0 +1,65 @@
+# ============================================================
+# DocumentaryForge Git Ignore Policy
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Kaggle / notebook runtime
+.ipynb_checkpoints/
+kaggle.json
+
+# Large media and temporary production assets
+media/cache/
+media/final/
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.wav
+*.mp3
+*.flac
+*.aac
+*.m4a
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.tiff
+*.tif
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.part
+*.download
+*.partial
+
+# Logs that may contain runtime noise
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
