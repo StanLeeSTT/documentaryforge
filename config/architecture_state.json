@@ -1,0 +1,17 @@
+{
+  "factory_id": "documentaryforge_001",
+  "version": "0.1.0",
+  "pipeline_status": "not_started",
+  "completed_stages": [],
+  "next_stage": "foundation_verification",
+  "rules": {
+    "no_fake_evidence": true,
+    "no_fabricated_sources": true,
+    "no_metadata_as_evidence": true,
+    "no_same_work_double_counting": true,
+    "visual_intelligence_first_class": true,
+    "dynamic_research_questions": true,
+    "large_media_outside_git": true,
+    "seven_day_video_cache_retention": true
+  }
+}

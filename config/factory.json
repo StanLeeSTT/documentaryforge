@@ -1,0 +1,22 @@
+{
+  "factory_name": "DocumentaryForge",
+  "factory_id": "documentaryforge_001",
+  "project_slug": "documentaryforge",
+  "architecture_version": "0.1.0",
+  "status": "foundation",
+  "execution_environment": "kaggle",
+  "source_of_truth": "git",
+  "created_at_utc": "2026-09-23T14:44:59.173609+00:00",
+  "test_documentary": {
+    "job_id": "indus_valley_001",
+    "title": "The Lost Civilization of the Indus Valley",
+    "role": "integration_test_only"
+  },
+  "media_policy": {
+    "downloaded_video_retention_days": 7,
+    "retention_basis": "download_age",
+    "cleanup_requires_downloaded_flag": true,
+    "cleanup_requires_safety_checks": true,
+    "dry_run_required": true
+  }
+}
