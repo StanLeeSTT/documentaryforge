@@ -1,0 +1,55 @@
+# secrets and credentials - never commit
+.env
+.env.*
+!.env.example
+*.env
+.envrc
+kaggle.json
+.kaggle/
+id_rsa
+id_ed25519
+*.pem
+*.key
+*.p12
+*.pfx
+# voice references, generated audio/video and models live in private storage only
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+*.aac
+*.opus
+*.aiff
+*.wma
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.m4v
+*.wmv
+*.flv
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.gguf
+voice_references/
+reference_audio/
+generated_media/
+# archives and databases
+*.zip
+*.tar
+*.gz
+*.tgz
+*.7z
+*.rar
+*.sqlite
+*.sqlite3
+*.db
+# python
+__pycache__/
+*.pyc
+.venv/
